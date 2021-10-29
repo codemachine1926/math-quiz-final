@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<title>Guess The Word</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="1stpage.css">
+</head>
+
+<body id="bosy">
+
+	<h4 id="player1_name"></h4><span id="player1_score"></span>
+	<br>
+	<h4 id="player2_name"></h4><span id="player2_score"></span>
+
+	<div class="container">
+		<center>
+			<h2 style="color: white;">The Math Quiz game!</h2>
+			<h3 id="player_question"></h3>
+			<h3 id="player_answer"></h3>
+			<div id="output" class="col-lg-6"></div>
+			<br>
+			<br>
+			<h3>Number 1</h3><br>
+			<input id="input_1" type="number" placeholder="Number 1" style="width: 500px; height: 25px;"><br><br>
+			<h3>Number 2</h3><br>
+			<input id="input_2" type="number" placeholder="Number 2" style="width: 500px; height: 25px;"><br><br>
+			<button id="btn_1" class="btn btn-info" onclick="send()" style="width: 100px; font-size: 20px;">send</button>
+		</center>
+	</div>
+
+	<script src="2ndpage.js"></script>
+</body>
+
+</html>
